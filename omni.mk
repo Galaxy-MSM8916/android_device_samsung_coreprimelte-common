@@ -1,10 +1,10 @@
 # Release name
-PRODUCT_RELEASE_NAME := Samsung Galaxy Grand Prime
+PRODUCT_RELEASE_NAME := Samsung Galaxy Core Prime
 ROM_BUILDTYPE := NIGHTLY
 
 # Boot animation
-TARGET_SCREEN_WIDTH := 540
-TARGET_SCREEN_HEIGHT := 960
+TARGET_SCREEN_WIDTH := 480
+TARGET_SCREEN_HEIGHT := 800
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/omni/config/common.mk)

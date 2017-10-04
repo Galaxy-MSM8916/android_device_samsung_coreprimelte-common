@@ -16,7 +16,7 @@
 # Inherit from common
 include device/samsung/msm8916-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/gprimelte-common
+LOCAL_PATH := device/samsung/coreprimelte-common
 
 # Include board config fragments
 include $(LOCAL_PATH)/board/*.mk

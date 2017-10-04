@@ -6,6 +6,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.radio.jbims=1 \
 	persist.radio.no_wait_for_card=1
 
+
+# Screen
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.sf.lcd_density=207
+
 # Telephony
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.telephony.default_network=10
