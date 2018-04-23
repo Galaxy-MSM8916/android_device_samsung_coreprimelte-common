@@ -1,4 +1,4 @@
-# android_device_samsung_gprimelte-common
+# android_device_samsung_coreprimelte-common
 
 ## Common device tree for Samsung Galaxy Grand Prime LTE devices
 

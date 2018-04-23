@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter fortuna3g fortunave3g fortunalte fortunalteub gprimelte gprimeltexx gprimeltespr gprimeltetfnvzw gprimeltezt, $(TARGET_DEVICE)),)
+ifneq ($(filter fortuna3g fortunave3g fortunalte fortunalteub coreprimelte coreprimeltexx coreprimeltespr coreprimeltetfnvzw coreprimeltezt, $(TARGET_DEVICE)),)
 
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 

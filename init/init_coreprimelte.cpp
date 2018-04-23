@@ -86,7 +86,7 @@ void init_target_properties(void)
 	}
 	else if (bootloader.find("G530P") == 0) {
 		build_id = (char *)"LMY47X";
-		device = (char *)"gprimeltespr";
+		device = (char *)"coreprimeltespr";
 		model = (char *)"SM-G530P";
 		network_type=CDMA_DEVICE;
 		operator_alpha= (char *)"Chameleon";
@@ -95,29 +95,29 @@ void init_target_properties(void)
 	}
 	else if (bootloader.find("G530T1") == 0) {
 		build_id = (char *)"LMY47X";
-		device = (char *)"gprimeltemtr";
+		device = (char *)"coreprimeltemtr";
 		model = (char *)"SM-G530T1";
 		network_type=LTE_DEVICE;
 		version_release = (char *)"5.1.1";
 	}
 	else if (bootloader.find("G530T") == 0) {
 		build_id = (char *)"LMY47X";
-		device = (char *)"gprimeltetmo";
+		device = (char *)"coreprimeltetmo";
 		model = (char *)"SM-G530T";
 		network_type=LTE_DEVICE;
 		version_release = (char *)"5.1.1";
 	}
 	else if (bootloader.find("G530W") == 0) {
 		build_id = (char *)"LMY47X";
-		device = (char *)"gprimeltecan";
+		device = (char *)"coreprimeltecan";
 		model = (char *)"SM-G530W";
-		name = (char *)"gprimeltevl";
+		name = (char *)"coreprimeltevl";
 		network_type=LTE_DEVICE;
 		version_release = (char *)"5.1.1";
 	}
 	else if (bootloader.find("S920L") == 0) {
 		build_id = (char *)"LRX22G";
-		device = (char *)"gprimeltetfnvzw";
+		device = (char *)"coreprimeltetfnvzw";
 		model = (char *)"SM-S920L";
 		network_type=CDMA_DEVICE;
 		operator_alpha= (char *)"TracFone";
